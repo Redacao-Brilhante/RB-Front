@@ -1,9 +1,9 @@
 import React from "react";
-import '../../styles/components/Landingpage/About.scss'
+import '../../styles/components/Landingpage/DiagonalBox.scss'
 
 import HomeScreen from '../../assets/HOME-SCREEN.png'
 
-export function About(){
+export function DiagonalBox(){
     return (
         <div id="diagonal-box">
             <div id="img-examples">

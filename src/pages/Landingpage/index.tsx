@@ -1,12 +1,12 @@
 import React from 'react';
 import { Home } from '../../components/Landingpage/Home';
-import {About} from '../../components/Landingpage/About';
+import {DiagonalBox} from '../../components/Landingpage/DiagonalBox';
 
 export function Landingpage(){
     return (
         <>
             <Home/>
-            <About/>
+            <DiagonalBox/>
         </>
     )
 }
