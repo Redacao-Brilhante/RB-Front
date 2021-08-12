@@ -1,0 +1,96 @@
+#home-component {
+
+    #header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1rem;
+
+        #logo-group {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            #logo {
+                margin-left: 95px;
+                margin-top: 52px;
+                background: #EBD91A;
+                height: 51px;
+                width: 51px;
+                padding: 3px;
+                border-radius: 100%;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+        #action-button {
+            margin-top: 52px;
+            margin-right:95px;
+        }
+        #action-button button{
+            width: 192px;
+            height: 60px;
+            background: #1B217D;
+            border-radius: 5px;
+            border: 0;
+            color: #fff;
+            font-weight: bold;
+            font-size: 21px;
+            transition: background-color 0.2s;    
+        }
+
+        #action-button button:hover{
+            cursor: pointer;
+            background: #262e9c;
+        }
+
+        h5{
+            margin-top: 52px;
+            font-size: 28px;
+            color: #2F2F3A;
+        }
+    }
+
+    #content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1rem;
+        margin-top: 150px;
+        margin-left: 92px;
+
+        #intro{
+            width: 555px;
+
+            h3{
+                font-size: 50px;
+            }
+
+            h5{
+                margin-top: 10px;
+                font-weight: lighter;
+                font-size: 28px;
+            }
+        }
+
+        #illustration{
+            img{
+                width: 872px;
+                height: 609px;
+                filter: drop-shadow(10px 11px 4px rgba(0, 0, 0, 0.25));
+            }
+            
+        }
+
+
+    }
+
+    
+}

@@ -1,8 +1,8 @@
 import React from 'react';
-import { Header } from '../../components/Landingpage/Header';
+import { Home } from '../../components/Landingpage/Home';
 
 export function Landingpage(){
     return (
-      <Header/>
+      <Home/>
     )
 }
