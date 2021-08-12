@@ -35,9 +35,7 @@ export function Home() {
                 <div id="illustration">
                     <img src={ youngDesk } alt="Estudnate" />
                 </div>
-            </div>
-
-           
+            </div>       
         </div>
     )
 }
