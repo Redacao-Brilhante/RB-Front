@@ -32,9 +32,15 @@ export function Home() {
                         labore et dolore magna aliqua.
                     </h5>
                 </div>
+                <div id="second-action-button">
+                    <button>
+                        Acessar
+                    </button>
+                </div>
                 <div id="illustration">
                     <img src={ youngDesk } alt="Estudnate" />
                 </div>
+                
             </div>       
         </div>
     )

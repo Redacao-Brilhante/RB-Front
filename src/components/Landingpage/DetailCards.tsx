@@ -9,6 +9,7 @@ type Card = {
 
 export function DetailCards({title, paragraph}: Card) {
     return (
+        
         <div id='card'>
             <h3>{title}</h3>
             <p>{paragraph}</p>
