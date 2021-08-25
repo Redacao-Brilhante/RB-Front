@@ -1,6 +1,10 @@
 .content-component{
   display: flex;
-  width: 50%;
+  position: absolute;
+  width: 878px;
+  height: 100%;
+  left: 245px;
+  top: 147px;
   background: #ffffff;
   border-radius: 15px 15px 0px 0px;
   flex-direction: column;
@@ -8,6 +12,7 @@
   .text-group{
     margin-left: 32px;
     margin-top: 22px;
+    margin-bottom: 25px;
     h1 {
       font-family: 'Montserrat';
       font-style: normal;
@@ -36,7 +41,7 @@
     h1{
       font-family: 'Ubuntu', sans-serif;
       font-weight: 300;
-      width: 170px;
+      width: 250px;
       font-size: 30px;
       line-height: 34px;
       margin-bottom: 10px;
