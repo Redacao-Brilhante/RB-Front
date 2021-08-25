@@ -1,5 +1,7 @@
 import React from 'react';
 import { Header } from './components/Header';
+import { ButtonAcess } from './components/ButtonAcess';
+import { MiddleContent } from './components/MiddleContent';
 import { Main } from './components/template/Main';
 import { Notification } from './components/Notification';
 import { User } from './components/User';
@@ -48,6 +50,7 @@ function App() {
 
 					</DropDownLinks>
 				</Aside>
+				<MiddleContent />
 			</Main>
 		</>
 	)

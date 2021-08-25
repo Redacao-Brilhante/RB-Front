@@ -1,0 +1,23 @@
+button.button-acess{
+  display: flex;
+  width: 135px;
+  height: 39px;
+  background: #1B217D;
+  border-radius: 10px;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 17px;
+  border: none;
+  transition: background-color 0.2s;
+  img{
+    width: 28px;
+  }
+}
+button.button-acess:hover{
+  background: #1B216e;
+}
