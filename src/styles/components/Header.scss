@@ -4,13 +4,15 @@
     justify-content: space-between;
     padding: 1rem;
 
+    background: #FFFFFF;
+
     .logo-group {
         display: flex;
         align-items: center;
-        gap: 40px;
+        gap: 39px;
 
         .logo {
-            margin-left: 20px;
+            margin-left: 10px;
             background: #EBD91A;
             height: 51px;
             width: 51px;

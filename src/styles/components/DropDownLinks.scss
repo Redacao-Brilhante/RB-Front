@@ -1,0 +1,46 @@
+.dropdown-links-component {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 200px;
+    margin: 15px 0px;
+    padding: .5rem;
+    border-radius: 1rem;
+    background-color: #EBD91A;
+
+    span {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    img {
+        width: 24px;
+        height: 24px;
+    }
+
+    p {
+        font-weight: bold;
+    }
+
+    .btn-arrow-down  {
+        transition: 0.2s;
+        transform: rotate(90deg);
+        cursor: pointer;
+
+        margin-right: 5px;
+        text-align: center;
+        border: none;
+        background-color: #EBD91A;
+        
+        &.is-open {
+            transform: rotate(180deg);
+        }
+
+        img {
+            width: 15px;
+            height: 15px;
+        }
+    }
+}
