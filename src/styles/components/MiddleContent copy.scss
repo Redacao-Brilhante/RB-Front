@@ -1,0 +1,102 @@
+.content-component{
+  display: flex;
+  width: 50%;
+  background: #ffffff;
+  border-radius: 15px 15px 0px 0px;
+  flex-direction: column;
+
+  .text-group{
+    margin-left: 32px;
+    margin-top: 22px;
+    h1 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 21px;
+      line-height: 120%;
+      color: #030517;
+    }
+    h3 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 150%;
+      color: #666666;
+    }
+  }
+  .acess-group {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background: #FFFFFF;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+    ButtonAcess{
+      margin: 38px;
+    }
+    a{
+      text-decoration: none;
+    }
+    h1{
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 300;
+      width: 170px;
+      font-size: 30px;
+      line-height: 34px;
+      b{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+        color: #1B217D;
+      }
+    }
+
+    .attend-classes{
+      background: #EFEFEE;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 32px;
+    }
+    .acess-group-down{
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      h1{
+        margin: 10px 0px 0px 21px;
+      }
+      ButtonAcess{
+        margin: 20px;
+      }
+      div.writing-examples {
+        background: #EFEFEE;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        div{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      div.support-material {
+        background: #EFEFEE;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        div{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

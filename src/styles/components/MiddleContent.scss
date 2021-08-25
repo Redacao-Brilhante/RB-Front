@@ -1,0 +1,110 @@
+.content-component{
+  display: flex;
+  position: absolute;
+  width: 878px;
+  height: 100%;
+  left: 245px;
+  top: 147px;
+  background: #ffffff;
+  border-radius: 15px 15px 0px 0px;
+  flex-direction: column;
+
+  .text-group{
+    margin-left: 32px;
+    margin-top: 22px;
+    margin-bottom: 25px;
+    h1 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 21px;
+      line-height: 120%;
+      color: #030517;
+    }
+    h3 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 150%;
+      color: #666666;
+    }
+  }
+  .acess-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a{
+      text-decoration: none;
+    }
+    h1{
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 300;
+      width: 250px;
+      font-size: 30px;
+      line-height: 34px;
+      margin-bottom: 10px;
+      b{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+        color: #1B217D;
+      }
+    }
+
+    .attend-classes{
+      width: 90%;
+      height: 170px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background: #EFEFEE;
+      border-radius: 10px;
+      margin: 20px;
+      .imageContent01{
+        width: 50%;
+        margin-bottom: 10px;
+        margin-left: -80px;
+      }
+    }
+    .acess-group-down{
+      width: 100%;
+      display: flex;
+      .support-material{
+        width: 52%;
+        height: 170px;
+        background: #EFEFEE;
+        border-radius: 10px;
+        display: flex;
+        margin: 20px 5px 20px 40px;
+        div{
+          width: 23%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          margin-left: 20px;
+        }
+      }
+      .writing-examples{
+        width: 38%;
+        height: 170px;
+        background: #EFEFEE;
+        border-radius: 10px;
+        display: flex;
+        margin: 20px 40px 5px 20px;
+        div{
+          width: 25%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          margin-left: 20px;
+        }
+      }
+      .imageContentDown{
+        width: 100%;
+        margin-bottom: -20px;
+      }
+    }
+  }
+}
