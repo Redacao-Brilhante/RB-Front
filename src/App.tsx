@@ -17,8 +17,6 @@ import instagramLogo from './assets/instagram.svg';
 function App() {
 	return (
 		<>
-
-      <MiddleContent />
 			<Header srcLogo={logoWithoutTitle}>
 				<div className="user-group">
 					<Notification />
@@ -52,6 +50,7 @@ function App() {
 
 					</DropDownLinks>
 				</Aside>
+				<MiddleContent />
 			</Main>
 		</>
 	)

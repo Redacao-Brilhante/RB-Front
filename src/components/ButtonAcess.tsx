@@ -7,7 +7,7 @@ import '../styles/components/ButtonAcess.scss';
 export function ButtonAcess(){
   return (
     <>
-      <button type="button">Acessar<img src={ arrowCircleRifht } alt="Sininho de notificações" /></button>
+      <button className="button-acess" type="button">Acessar<img src={ arrowCircleRifht } alt="Sininho de notificações" /></button>
     </>
   )
 }
