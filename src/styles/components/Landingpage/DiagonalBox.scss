@@ -3,23 +3,30 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1rem;
+    margin-top: 32px;
     
-    height: 900px;
+    height: 600px;
     background: #1B217D;
     color: white;
-    clip-path: polygon(0 0, 100% 8%, 100% 69%, 0 61%);
-    padding: 10rem 2%;
+    transform: skew(0deg, 3.8deg);
+
+
+    .wrap{
+       transform: skew(0deg, -3.8deg);
+    }
 
     #img-examples{
-        img{
-            margin-top: -100px;
-            width: 100%;
-            height: 90%;
+        img{ 
+            margin-top: 32px;
+            width: 90%;
+            height: 70%;
         }
     }
 
     #content{
         width: 50%;
+        margin-top: 32px;
+        margin-right: 16px;
         h3{
             font-size: 5rem;
             font-weight: 700;
@@ -34,5 +41,34 @@
         
         }
         
+    }
+}
+@media(max-width: 1500px){
+    #diagonal-box {
+        height: 500px;
+    }
+    
+    #diagonal-box #img-examples {
+        display: none;
+    }
+
+    #diagonal-box #content {
+        width: 100%;
+    }
+}
+
+@media(max-width: 670px){
+    #diagonal-box {
+        height: 600px;
+    }
+    #diagonal-box #content {
+       h3{
+           font-size: 3rem;
+           text-align: center;
+       }
+
+       h6{
+           font-size: 1.8rem;
+       }
     }
 }

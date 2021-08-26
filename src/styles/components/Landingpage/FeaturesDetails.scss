@@ -1,6 +1,6 @@
 #details-content{
-    margin-left: 150px;
-    margin-top: -200px;
+    margin-left: 35px;
+    margin-top: 64px;
     h3{
         color: #030517;
         font-size: 5rem;
@@ -9,4 +9,28 @@
 
 #cards{
     display: flex;
+    justify-content: space-evenly;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+@media(max-width: 1500px){
+    #cards {
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width: 670px){
+
+    #details-content h3 {
+        font-size: 3rem;
+    }
+
+    #cards {
+        flex-wrap: wrap;
+    }
+
 }

@@ -6,12 +6,12 @@ import HomeScreen from '../../assets/HOME-SCREEN.png'
 export function DiagonalBox(){
     return (
         <div id="diagonal-box">
-            <div id="img-examples">
+            <div id="img-examples" className="wrap">
                 <img src={HomeScreen} alt="HomeScreen" />
             </div>
             
 
-            <div id="content">
+            <div id="content" className="wrap">
                 <h3>Nossa Plataforma</h3>
                 <h6>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
